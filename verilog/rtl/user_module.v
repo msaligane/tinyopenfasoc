@@ -1,4 +1,4 @@
-/* Automatically generated from https://wokwi.com/projects/334445762078310996 */
+/* Automatically generated from https://wokwi.com/projects/342059494163874386 */
 
 `default_nettype none
 
@@ -6,34 +6,49 @@ module user_module(
   input [7:0] io_in,
   output [7:0] io_out
 );
-  wire net1 = 1'b1;
-  wire net2 = 1'b0;
-  wire net3;
-  wire net4;
-  wire net5;
-  wire net6;
-  wire net7;
-  wire net8 = 1'b1;
-  wire net9 = 1'b0;
+  wire net1 = io_in[0];
+  wire net2 = io_in[1];
+  wire net3 = io_in[2];
+  wire net4 = io_in[3];
+  wire net5 = io_in[4];
+  wire net6 = io_in[5];
+  wire net7 = io_in[6];
+  wire net8 = io_in[7];
+  wire net9;
   wire net10;
   wire net11;
-  wire net12 = 1'b1;
+  wire net12;
   wire net13 = 1'b0;
-  wire net14;
+  wire net14 = 1'b1;
   wire net15 = 1'b1;
-  wire net16 = 1'b0;
-  wire net17;
-  wire net18 = 1'b0;
-  wire net19 = 1'b1;
-  wire net20;
-  wire net21 = 1'b1;
-  wire net22;
-  wire net23;
-  wire net24 = 1'b0;
-  wire net25 = 1'b0;
 
+  assign io_out[0] = net9;
+  assign io_out[1] = net10;
+  assign io_out[2] = net11;
+  assign io_out[3] = net12;
+  assign io_out[4] = net5;
+  assign io_out[5] = net6;
+  assign io_out[6] = net7;
+  assign io_out[7] = net8;
+
+  not_cell not1 (
+    .in (net1),
+    .out (net9)
+  );
+  not_cell not2 (
+    .in (net2),
+    .out (net10)
+  );
+  not_cell not3 (
+    .in (net3),
+    .out (net11)
+  );
+  not_cell not4 (
+    .in (net4),
+    .out (net12)
+  );
   and_cell gate1 (
-    .a (net3)
+
   );
   or_cell gate2 (
 
@@ -42,47 +57,18 @@ module user_module(
 
   );
   nand_cell gate4 (
-    .a (net4),
-    .b (net5),
-    .out (net6)
+
   );
   not_cell gate5 (
-    .in (net7),
-    .out (net5)
+
   );
   buffer_cell gate6 (
 
   );
   mux_cell mux1 (
-    .a (net8),
-    .b (net9),
-    .sel (net10),
-    .out (net11)
+
   );
   dff_cell flipflop1 (
 
-  );
-  mux_cell mux2 (
-    .a (net12),
-    .b (net13),
-    .sel (net10),
-    .out (net14)
-  );
-  mux_cell mux3 (
-    .a (net15),
-    .b (net16),
-    .sel (net10),
-    .out (net17)
-  );
-  mux_cell mux4 (
-    .a (net18),
-    .b (net19),
-    .sel (net10),
-    .out (net20)
-  );
-  and_cell gate7 (
-    .a (net22),
-    .b (net23),
-    .out (net4)
   );
 endmodule

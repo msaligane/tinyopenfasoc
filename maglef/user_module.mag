@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1662469305
+timestamp 1662472492
 << obsli1 >>
 rect 1104 2159 48852 47345
 << obsm1 >>
-rect 1104 2128 49666 47376
+rect 14 2128 49666 47376
 << metal2 >>
 rect 662 49200 718 50000
 rect 12898 49200 12954 50000
@@ -18,16 +18,17 @@ rect 24490 0 24546 800
 rect 36726 0 36782 800
 rect 48962 0 49018 800
 << obsm2 >>
-rect 1398 49144 12842 49314
+rect 20 49144 606 49314
+rect 774 49144 12842 49314
 rect 13010 49144 25078 49314
 rect 25246 49144 37314 49314
 rect 37482 49144 49550 49314
-rect 1398 856 49660 49144
-rect 1398 800 12198 856
-rect 12366 800 24434 856
-rect 24602 800 36670 856
-rect 36838 800 48906 856
-rect 49074 800 49660 856
+rect 20 856 49660 49144
+rect 130 734 12198 856
+rect 12366 734 24434 856
+rect 24602 734 36670 856
+rect 36838 734 48906 856
+rect 49074 734 49660 856
 << metal3 >>
 rect 0 38088 800 38208
 rect 49200 37408 50000 37528
@@ -96,8 +97,8 @@ port 18 nsew ground bidirectional
 string FIXED_BBOX 0 0 50000 50000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 596062
-string GDS_FILE /home/runner/work/tiny_user_project/tiny_user_project/openlane/user_module/runs/22_09_06_13_00/results/signoff/user_module.magic.gds
-string GDS_START 23756
+string GDS_END 639416
+string GDS_FILE /home/runner/work/tinyopenfasoc/tinyopenfasoc/openlane/user_module/runs/22_09_06_13_53/results/signoff/user_module.magic.gds
+string GDS_START 45438
 << end >>
 
